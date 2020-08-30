@@ -1,0 +1,6 @@
+en
+configure terminal
+interface management 1
+ip address 10.10.10.2 255.255.255.0
+no shutdown
+copy run start

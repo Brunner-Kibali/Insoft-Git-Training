@@ -1,6 +1,8 @@
+#Modifying router1 config
 en
 configure terminal
 interface management 1
-ip address 10.10.10.2 255.255.255.0
+ip address 10.10.10.4 255.255.255.0
+hostname Aristavm3
 no shutdown
 copy run start
